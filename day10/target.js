@@ -21,6 +21,6 @@ let high=arr.length-1;
         }
         else if(arr[mid]>target)
         {
-            high=mid+1;
+            high=mid-1;
         }
    }
